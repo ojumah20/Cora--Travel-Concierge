@@ -64,4 +64,10 @@ def generate_itinerary(user_data, qloo_results):
         "temperature": 0.7
     }
     response = requests.post(url, headers=headers, json=data)
-    return response.json()["choices"][0]["message"]["content"]
+    try:
+        result = response.json()
+        return result["choices"][0]["message"]["content"]
+    except Exception as e:
+        print("🛑 API call failed. Status:", response.status_code)
+        print("Response:", response.text)
+        raise e
