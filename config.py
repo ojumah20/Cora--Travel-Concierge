@@ -1,4 +1,4 @@
-QLOO_API_KEY = ""
-GROQ_API_KEY = ""
-GROQ_MODEL = ""
-PEXELS_API_KEY = ""
+QLOO_API_KEY = "" #update with your key
+GROQ_API_KEY = "" #update with your key
+GROQ_MODEL = "deepseek-r1-distill-llama-70b"
+PEXELS_API_KEY = "" #update with your key
