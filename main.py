@@ -1,6 +1,10 @@
-from config import GROQ_API_KEY, GROQ_MODEL
+#from config import GROQ_API_KEY, GROQ_MODEL
 import requests
 import json
+import streamlit as st
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_MODEL = st.secrets["GROQ_MODEL"]
 # --- Groq Itinerary Generator ---
 
 

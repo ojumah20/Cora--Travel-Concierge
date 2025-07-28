@@ -1,5 +1,7 @@
 import requests
-from config import PEXELS_API_KEY
+import streamlit as st
+
+PEXELS_API_KEY = st.secrets["PEXELS_API_KEY"]
 # --- Image from Pexels ---
 def get_neighborhood_image(query):
     url = f"https://api.pexels.com/v1/search?query={query}&per_page=1"
