@@ -52,7 +52,7 @@ with st.form("itinerary_form"):
     submitted = st.form_submit_button("Generate My Itinerary")
 
 if submitted:
-    with st.spinner("Fetching recommendations..."):
+    with st.spinner("Fetching your Itinerary"):
         user_data = {
             "films": [f.strip() for f in films.split(",") if f.strip()],
             "artists": [a.strip() for a in artists.split(",") if a.strip()],
