@@ -43,7 +43,7 @@ st.markdown(
 )
 
 with st.form("itinerary_form"):
-    st.markdown("Tell us your cultural tastes. We'll craft the perfect itinerary just for you.")
+    st.markdown("Tell Cora a little about yourself and You will craft the perfect itinerary just for you.")
     destination = st.text_input("Destination City", placeholder="e.g. Paris")
     trip_days = st.slider("How many days is your trip?", min_value=1, max_value=7, value=3)
     films = st.text_area("Your Favorite Films", placeholder="e.g. Amélie, The Grand Budapest Hotel")
