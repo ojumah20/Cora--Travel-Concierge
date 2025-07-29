@@ -43,13 +43,13 @@ st.markdown(
 )
 
 with st.form("itinerary_form"):
-    st.markdown("Tell Cora a little about yourself and You will craft the perfect itinerary just for you.")
-    destination = st.text_input("Destination City", placeholder="e.g. Paris")
+    st.markdown("Tell Cora a little about yourself and You will get the perfect itinerary just for you.")
+    destination = st.text_input("📍 Destination City", placeholder="e.g. Paris")
     trip_days = st.slider("How many days is your trip?", min_value=1, max_value=7, value=3)
-    films = st.text_area("Your Favorite Films", placeholder="e.g. Amélie, The Grand Budapest Hotel")
-    artists = st.text_area("Your Favorite Music Artists", placeholder="e.g. Norah Jones, Chet Baker")
-    cuisines = st.text_area("Favorite Cuisines", placeholder="e.g. French, Vietnamese")
-    submitted = st.form_submit_button("Generate Itinerary")
+    films = st.text_area("🎬 Your Favorite Films", placeholder="e.g. Amélie, The Grand Budapest Hotel")
+    artists = st.text_area("🎤 Your Favorite Music Artists", placeholder="e.g. Norah Jones, Chet Baker")
+    cuisines = st.text_area("🍽️ Favorite Cuisines", placeholder="e.g. French, Vietnamese")
+    submitted = st.form_submit_button("Generate My Itinerary")
 
 if submitted:
     with st.spinner("Fetching recommendations..."):
