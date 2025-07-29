@@ -35,7 +35,7 @@ st.set_page_config(page_title="Travel Concierge", page_icon="🎒")
 
 st.markdown(
     """
-    <h1 style='text-align: center;'>👩‍💼 Cora, Your Travel Concierge</h1>
+    <h1 style='text-align: center;'>👩‍💼 Cora, Your Personal Travel Concierge</h1>
     <p style='text-align: center; font-size: 18px;'>Travel with Cora, Inspired by Your Taste</p>
     <br> </br>
     """,
