@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Cora** is an AI-powered travel concierge that crafts hyper-personalized, day-by-day itineraries based on user preferences in films, music, and cuisine. It integrates multiple APIs, Qloo Taste AI™, Groq LLM, and Pexels, to deliver culturally rich, visually engaging plans tailored to each user’s inferred emotional tone.
+**Cora** is an AI-powered travel concierge that crafts hyper-personalised, day-by-day itineraries based on user preferences in films, music, and cuisine. It integrates multiple APIs, Qloo Taste AI™, Groq LLM, and Pexels, to deliver culturally rich, visually engaging plans tailored to each user’s inferred emotional tone.
 
 ## Features
 
