@@ -30,7 +30,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/travel-concierge.git
+   git clone https://github.com/ojumah20/Cora--Travel-Concierge.git
    cd travel-concierge
    ```
 2. **Create a virtual environment and install dependencies:**
